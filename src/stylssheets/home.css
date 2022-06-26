@@ -1,0 +1,84 @@
+.introduction{
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
+   
+    
+}
+.introduction p {
+    color: white;
+}
+.introduction div h1{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 100px;
+}
+.introduction div h1:hover{
+    color: white;
+    cursor: default;
+    text-shadow: 0px 0px 10px #fff;
+}
+.primary-button{
+    background-color: white;
+    border: none;
+    height: 45px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.devstack{
+    color: black;
+    transition: all 0.5s;
+    padding: 10px;
+}
+.devstack:hover{
+    color: white;
+    background-color: #001220;
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.who-is-majd {
+    height: 75vh;
+    background-size: 100% 100%;
+    color: white;
+    transition: all 00.5s;
+    overflow : hidden !important;
+
+}
+/* .who-is-majd:hover {
+  transform: scale(1.05);
+  overflow : hidden !important;
+} */
+.pre{
+     font-size: 18px;
+     font-family: 'Montserrat', sans-serif !important;
+}
+
+@media(max-width:750px){
+    /* .introduction div h1{
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.603);
+        font-size: 160px;
+} */
+.primary-button{
+    background-color: white;
+    border: none;
+    height: 45px;
+    border-radius: 25px;
+    width: auto;
+}
+.who-is-majd {
+    height: 100vh;
+    background-size: 250% 100%;
+    color: white;
+    background-position: center;
+}
+.pre{
+     font-size: 16px;
+     font-family: 'Montserrat', sans-serif !important;
+}
+
+}
+
